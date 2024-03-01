@@ -1,8 +1,8 @@
 body {
 	margin-top: 5em; 
 	margin-left: 5em;
-  padding: 0 20px; /* Adjust the padding as needed */
-  max-width: 1500px; /* Adjust the max-width as needed */
+  padding: 0 20px; 
+  max-width: 1500px; 
   background-color:black
 }
 
@@ -43,14 +43,14 @@ body {
   font-optical-sizing: auto;
   font-size: 6em;
   color:rgb(191, 251, 203);
-  margin-bottom: 0; /* Adjust the margin to close the gap */
+  margin-bottom: 0; /* Adjust margin to close gap */
 }
 .Color-and-Culture {
   font-family: "Silkscreen", sans-serif;
   font-weight: 700;
   font-style: normal;
   color:rgb(191, 251, 203);
-  margin-top: 0; /* Adjust the margin to close the gap */
+  margin-top: 0; /* Adjust margin to close gap */
 }
 .RED {
   font-family: "Dancing Script", cursive;
@@ -60,12 +60,12 @@ body {
 
   display: inline-block; /* Ensures that the border-radius applies to create an oval */
   height: 1.4em;
-  position: relative; /* Set position to relative */
+  position: relative; 
 
   /* Oval Stroke */
   border: 2px solid red; /* Change the color and size of the stroke */
   border-radius: 50%; /* Adjust the horizontal and vertical radii for a smaller oval */
-  padding: 7px; /* Adjust padding as needed */
+  padding: 7px; 
   margin-top: 2em; /* Adjust the margin to close the gap */
   margin-bottom: 0; /* Adjust the margin to close the gap */
 }
@@ -78,7 +78,7 @@ body {
 
   display: inline-block; /* Ensures that the border-radius applies to create an oval */
   height: 1.4em;
-  position: relative; /* Set position to relative */
+  position: relative; 
 
   /* Oval Stroke */
   border: 2px solid #26F7FD; /* Change the color and size of the stroke */
