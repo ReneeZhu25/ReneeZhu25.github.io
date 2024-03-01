@@ -6,7 +6,34 @@ body {
   background-color:black
 }
 
-.The-Politics-of-Design{
+.nav-bar ul{
+  list-style-type: none;
+  background-color: rgb(191, 251, 203);
+  padding: 0;
+  margin: 0px;
+  overflow: hidden;
+}
+.nav-bar a{
+  color:black; 
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center; 
+}
+  .nav-bar a:hover{
+    background-color: rgb(162, 253, 180);
+  }
+
+  .nav-bar li{
+    float: left;
+  }
+  li :nth-child(6n + 2){
+    background: red;
+  }
+
+
+
+.The-Politics-of-Design {
   /*font-family: "Silkscreen", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -18,7 +45,7 @@ body {
   color:rgb(191, 251, 203);
   margin-bottom: 0; /* Adjust the margin to close the gap */
 }
-.Color-and-Culture{
+.Color-and-Culture {
   font-family: "Silkscreen", sans-serif;
   font-weight: 700;
   font-style: normal;
