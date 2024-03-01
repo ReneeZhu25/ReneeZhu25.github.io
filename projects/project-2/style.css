@@ -1,0 +1,110 @@
+body {
+	margin-top: 5em; 
+	margin-left: 5em;
+  padding: 0 20px; /* Adjust the padding as needed */
+  max-width: 1500px; /* Adjust the max-width as needed */
+  background-color:black
+}
+
+.The-Politics-of-Design{
+  /*font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:4em;
+  color:rgb(191, 251, 203); */ 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 6em;
+  color:rgb(191, 251, 203);
+  margin-bottom: 0; /* Adjust the margin to close the gap */
+}
+.Color-and-Culture{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:rgb(191, 251, 203);
+  margin-top: 0; /* Adjust the margin to close the gap */
+}
+.RED {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: red; 
+  font-size: 2.75em;
+
+  display: inline-block; /* Ensures that the border-radius applies to create an oval */
+  height: 1.4em;
+  position: relative; /* Set position to relative */
+
+  /* Oval Stroke */
+  border: 2px solid red; /* Change the color and size of the stroke */
+  border-radius: 50%; /* Adjust the horizontal and vertical radii for a smaller oval */
+  padding: 7px; /* Adjust padding as needed */
+  margin-top: 2em; /* Adjust the margin to close the gap */
+  margin-bottom: 0; /* Adjust the margin to close the gap */
+}
+
+.BLUE {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: #26F7FD;
+  font-size: 2.75em;
+
+  display: inline-block; /* Ensures that the border-radius applies to create an oval */
+  height: 1.4em;
+  position: relative; /* Set position to relative */
+
+  /* Oval Stroke */
+  border: 2px solid #26F7FD; /* Change the color and size of the stroke */
+  border-radius: 50%; /* Adjust the horizontal and vertical radii for a smaller oval */
+  padding: 10.75px; /* Adjust padding as needed */
+  margin-bottom: 0; /* Adjust the margin to close the gap */
+}
+
+.GREEN {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: yellowgreen;
+  font-size: 2.75em;
+
+  display: inline-block; /* Ensures that the border-radius applies to create an oval */
+  height: 1.4em;
+  position: relative; /* Set position to relative */
+
+  /* Oval Stroke */
+  border: 2px solid yellowgreen; /* Change the color and size of the stroke */
+  border-radius: 50%; /* Adjust the horizontal and vertical radii for a smaller oval */
+  padding: 14px; /* Adjust padding as needed */
+  margin-bottom: 0; /* Adjust the margin to close the gap */
+}
+.PURPLE {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: #8F00FF;
+  font-size: 2.75em;
+
+  display: inline-block; /* Ensures that the border-radius applies to create an oval */
+  height: 1.4em;
+  position: relative; /* Set position to relative */
+
+  /* Oval Stroke */
+  border: 2px solid #8F00FF; /* Change the color and size of the stroke */
+  border-radius: 50%; /* Adjust the horizontal and vertical radii for a smaller oval */
+  padding: 12.75px; /* Adjust padding as needed */
+  margin-bottom: 0; /* Adjust the margin to close the gap */
+}
+
+p.color-1 span:hover {
+    color: red; 
+  }
+  /* Hover effect for spans with class color-2 within p */
+  p.color-2 span:hover {
+    color: #8F00FF; /* Hover color for spans within p with class color-2 */
+  }
+  p.color-3 span:hover {
+    color: #26F7FD; /* Hover color for spans within p with class color-2 */
+  }
+  p.color-4 span:hover {
+    color: yellowgreen; /* Hover color for spans within p with class color-2 */
+  }
+  
+  
