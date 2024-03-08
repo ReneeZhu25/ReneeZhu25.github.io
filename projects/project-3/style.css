@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin-top: 3em;
+  margin-left: 5em;
+  padding: 0 20px;
+  max-width: 1500px;
+  background-color: black;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 3em;
+  color:aliceblue;
+}
+
+.subtitle{
+  color:aliceblue; 
+}
+
+.navbar{
+  color: aliceblue;
+}
+
+.navigation{
+  float: left;
+	top: 0;
+	left: 0;
+}
+.navigation ol{
+	list-style: none;
+}
+.navigation a{
+	display: block;
+	text-decoration: none;
+	padding: 0rem;
+	font-family: sans-serif;
+	color: aliceblue; 
+
+	transition: color 0s ease;
+
+}
+.navigation a:hover {
+	color: rgb(251, 218, 176); 
+}
+.page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "section1 section1 section1 section1"
+    "section2 section3 section3 section3"
+    "section2 section4 section5 section6"
+    "section2 section7 section7 section8"
+    "section9 section9 section9 section9";
+  gap: 20px;
+  height: 100%;
+}
+
+/*#section4:hover, #section5:hover, #section6:hover, #section7:hover, #section8:hover, #section9:hover {
+  transform: scale(1.25);
+
+}
+*/
+
+#section1 {
+  background-color: black;
+  grid-area: section1;
+}
+
+#section2 {
+  background-color: black;
+  grid-area: section2;
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  border: 2px dotted antiquewhite; /* Adjust the width and color of the border as needed */
+}
+
+#section3 {
+  background-color: black;
+  outline-color: aliceblue;
+  grid-area: section3;
+}
+
+#section4 {
+  background-color: black;
+  grid-area: section4;
+}
+
+ .card{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  perspective: 1000px;
+}
+ .card-inner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s ease;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner{
+  transform: rotateY(-180deg);
+
+}
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-back{
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-back{
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transform: 0.9s ease;
+}
+
+#section5 {
+  background-color: black;
+  grid-area: section5;
+}
+
+#section6 {
+  background-color: black;
+  grid-area: section6;
+}
+
+#section7 {
+  background-color: black;
+  grid-area: section7;
+}
+
+#section8 {
+  background-color: black;
+  grid-area: section8;
+}
+
+#section9 {
+  background-color: black;
+  grid-area: section9;
+}
+#section2 img {
+  max-width: 150%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section4 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section5 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section6 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section7 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section8 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+#section9 img {
+  max-width: 70%; /* Adjust the width as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
